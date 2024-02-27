@@ -2,6 +2,45 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Titre -->
+	<title>Nina Carducci - Photographe professionnel à Bordeaux </title>
+
+	<!-- Description -->
+	<meta name="Description" content="Nina Carducci, photographe professionnel basée à Bordeaux">
+	<!-- Balise schema.org -->
+	<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Nina Carducci photographe",
+            "logo": "URL du logo de votre organisation",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "68 avenue Alsace-Lorraine",
+                "addressLocality": "Bordeaux",
+                "addressRegion": "Nouvelle-Aquitaine",
+                "postalCode": "33200",
+                "addressCountry": "FRANCE"
+            },
+			"telephone": "0556677889",
+			"openingHours": "Monday-Friday 10:00-19:00"
+        }
+    </script>
+
+	<!-- Open Graph-->
+	<meta property="og:title" content="Nina Carducci - Photographe professionnelle à Bordeaux">
+    <meta property="og:description" content="Nina Carducci, photographe professionnelle basée à Bordeaux">
+    <meta property="og:image" content="URL de l'image à afficher">
+    <meta property="og:url" content="URL de votre page">
+    <meta property="og:type" content="website">
+
+	<!-- Balises facultatives pour Twitter Card -->
+	<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle à Bordeaux">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@NinaCarducci">
+
+
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,9 +52,10 @@
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
 </head>
+
 <body>
-<div class="top-header">
-	<h3 class="name">Nina Carducci</h3>
+<header class="top-header">
+	<h1 class="name">Nina Carducci</h3>
 	<div class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -25,7 +65,8 @@
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
 		</ul>
 	</div>
-</div>
+</header>
+<main>
 <div id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -66,8 +107,8 @@
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
 </div>
-<div id="gallery">
-	<h3 class="title">Portfolio</h3>
+<section id="gallery">
+	<h2 class="title">Portfolio</h3>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"/>
@@ -89,8 +130,8 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-</div>
-<div id="services">
+</section>
+<section id="services">
 	<h3 class="title">Mes services</h3>
 	<div class="container">
 		<div class="service">
@@ -125,7 +166,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <div class="quote">
 	<figure>
 		<blockquote>
@@ -134,7 +175,7 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
-<div id="contact">
+<section id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
@@ -153,6 +194,21 @@
 			<img src="./assets/images/camera.png">
 		</div>
 	</div>
-</div>
+</section>
+<footer>
+	<div class="footer-description">
+		<ul>
+			
+			<li>Nina Carducci Photographe</li>
+			<li>68 avenue Alsace-Lorraine</li>
+			<li>33200 Bordeaux</li>
+			<li>France</li>
+			<li>Téléphone:</li>
+            <li>05 56 67 78 89</li>
+			<li>Horaires d'ouverture:</li> 
+			<li>Du lundi au vendredi de 10:00 à 19:00</li>
+		</ul>
+	</div>
+</footer>
 </body>
 </html>
